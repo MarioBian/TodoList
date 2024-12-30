@@ -1,0 +1,84 @@
+/* Basstil för hela sidan */
+body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Inmatningsfält */
+#input,
+#dueDate {
+  margin: 15px;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+/* Lägg till-knapp */
+#addTodo {
+  margin: 15px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#addTodo:hover {
+  background-color: gold;
+}
+
+/* Meddelandefält */
+#message {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Todo-listcontainer */
+#todoList {
+  margin-top: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+/* Enskilda todo-items */
+#todoList p {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ta bort-knappar */
+#todoList button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+#todoList button:hover {
+  background-color: darkred;
+}
